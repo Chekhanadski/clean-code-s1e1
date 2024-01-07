@@ -1,4 +1,3 @@
-/* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333333;
@@ -67,7 +66,6 @@ body {
   color: #3a3a3a;
 }
 
-/* Heading */
 .header-3,
 [for="new-task-enter"] {
   color: #333333;
@@ -95,13 +93,10 @@ body {
   color: #333333;
 }
 
-/* New Task */
 [for="new-task-enter"] {
   display: block;
   margin: 0 0 20px;
 }
-
-/* Task list */
 
 .task {
   overflow: hidden;
@@ -132,13 +127,11 @@ body {
   transform: rotateZ(0);
 }
 
-/* Completed */
 #completed-tasks .task__label {
   text-decoration: line-through;
   color: #888888;
 }
 
-/* Edit Task */
 .task__text_hidden {
   display: none;
 }
