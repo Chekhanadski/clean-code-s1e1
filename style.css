@@ -49,8 +49,8 @@ body {
 }
 
 .new-task__button,
-.edit,
-.delete {
+.task__button-edit,
+.task__button-delete {
   background: none;
   border: 0;
   color: #888888;
@@ -61,8 +61,8 @@ body {
 }
 
 .new-task__button:hover,
-.edit:hover,
-.delete:hover {
+.task__button-edit:hover,
+.task__button-delete:hover {
   color: #3a3a3a;
 }
 
