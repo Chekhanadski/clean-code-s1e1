@@ -38,10 +38,6 @@ body {
   outline: none;
 }
 
-.new-task {
-  display: flex;
-}
-
 #incomplete-tasks,
 #completed-tasks {
   margin: 0;
