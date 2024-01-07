@@ -92,7 +92,7 @@ body {
   color: #333333;
 }
 
-[for="new-task-enter"] {
+.new-task-header {
   display: block;
   margin: 0 0 20px;
 }
