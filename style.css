@@ -31,7 +31,7 @@ body {
   margin: 0 auto 0;
 }
 
-.task__label, 
+.task__label,
 .task__text {
   width: 56%;
   display: inline-block;
@@ -106,7 +106,7 @@ body {
 .task {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eeeeee;  
+  border-bottom: 1px solid #eeeeee;
   display: flex;
   align-items: center;
   list-style: none; 
@@ -144,7 +144,7 @@ body {
 }
 
 .edit-mode .task__text {
-  display: inline-block;  
+  display: inline-block;
 }
 
 .edit-mode .task__label {
