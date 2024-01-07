@@ -66,8 +66,7 @@ body {
   color: #3a3a3a;
 }
 
-.header-3,
-[for="new-task-enter"] {
+.header-3 {
   color: #333333;
   font-weight: 700;
   font-size: 15px;
