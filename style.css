@@ -43,14 +43,14 @@ body {
 #incomplete-tasks,
 #completed-tasks {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .task__button-add,
 .task__button-edit,
 .task__button-delete {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
