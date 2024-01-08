@@ -23,14 +23,14 @@
     </header>
     <main class="content-wrapper">
       <article>
-        <label for="new-task"><h3>Add Item</h3>
+        <label for="new-task"><h3 class="header-3 new-task-title">Add Item</h3>
         <div class="task">
-          <input id="new-task" class="task__text" type="text">
-          <button class="new-task__button">Add</button>
+          <input id="new-task-enter" class="task__text" type="text">
+          <button class="task__button-add">Add</button>
         </div>
         </label>
         <section>
-          <h3>Todo</h3>
+          <h3 class="header-3" >Todo</h3>
           <ul id="incomplete-tasks">
             <li class="task">
               <input type="checkbox">
@@ -39,7 +39,7 @@
               <button class="task__button-edit">Edit</button>
               <button class="task__button-delete"><img class="task__button-delete-img" src="./remove.svg" alt="Click to delete the task"></button>
             </li>
-            <li class="edit-mode">
+            <li class="task edit-mode">
               <input type="checkbox">
               <label class="task__label">Go Shopping</label>
               <input type="text" value="Go Shopping" class="task__text task__text_hidden">
@@ -49,9 +49,9 @@
           </ul>
         </section>
         <section>
-          <h3>Completed</h3>
+          <h3 class="header-3">Completed</h3>
           <ul id="completed-tasks">
-            <li>
+            <li class="task">
               <input type="checkbox" checked>
               <label class="task__label">See the Doctor</label>
               <input type="text" class="task__text task__text_hidden">
