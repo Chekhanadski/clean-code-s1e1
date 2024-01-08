@@ -4,15 +4,18 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__info {
   font-family: fantasy, cursive;
 }
@@ -22,11 +25,13 @@ body {
     text-align: center;
   }
 }
+
 .content-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__label,
 .task__text {
   width: 56%;
@@ -58,6 +63,7 @@ body {
 .task__button-delete:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .header-3 {
   color: #333;
@@ -81,6 +87,7 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task__text:focus {
   color: #333;
 }
@@ -104,6 +111,7 @@ body {
 .task > [type="checkbox"] {
   margin: 0 10px;
 }
+
 .task__label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -115,6 +123,7 @@ body {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task__button-delete-img:hover {
   transform: rotateZ(0);
 }
